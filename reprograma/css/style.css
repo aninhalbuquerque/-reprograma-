@@ -1,0 +1,140 @@
+/* GERAL */
+*
+{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* faz o reset do rem */
+}
+
+body{
+    margin: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner{
+    color: white;
+    background-image: url(../img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+.banner_title{
+    font-size: 60px;
+    margin-block-end: 0.3em;
+}
+
+.banner_subtitle{
+    font-size: 30px;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.btn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn_white{
+    background-color: white;
+    color: #7E459B;
+}
+
+.btn_pink{
+    color: #7E459B;
+    border: 1px solid #7E459B;
+}
+
+/* SEÇÃO SOBRE */
+
+.sobre_container{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.sobre_title{
+    font-size: 4rem;
+    color:  #C4C4C4;
+}
+
+.sobre_description, .sobre_habilities{
+    width: 40%;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.sobre_description_featured, .sobre_habilities_title{
+    font-size: 2rem;    
+}
+
+.sobre_habilities{
+    margin-left: 10rem;
+}
+
+.sobre_habilities_list{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+
+/* SEÇÃO REDES SOCIAIS */
+
+.footer_container{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.social_network_link{
+    display: inline-block;
+    width: 20%;
+    background-color: #7E459B;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.social_network_icon, .social_network_title{
+    margin-bottom: 0.5rem;
+}
+
+
